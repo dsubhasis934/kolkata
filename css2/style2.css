@@ -1,0 +1,166 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background:url(../bg_photo.jpg);
+	background-position:center;
+	background-size:cover;
+	height:100vh;
+	background-attachment:fixed;
+}
+.regform{
+	width:800px;
+	background-color:rgba(0,0,0,1);
+	color:white;
+	text-align:center;
+	margin:auto;
+	padding:10px 0px 10px 0px;
+	border-radius:15px 15px 0px 0px;
+}
+.main{
+	background-color:rgba(0,0,0,0.5);
+	width:800px;
+	margin:auto;
+}
+.form{
+	padding:10px;
+}
+#name{
+	width:100%;
+	height:100px;
+}
+.name{
+	margin-left:25px;
+	margin-top:30px;
+	width:125px;
+	color:white;
+	font-weight:700;
+	font-size:18px;
+}
+.firstname{
+	position:relative;
+	left:150px;
+	top:-20px;
+	line-height:40px;
+	width:220px;
+	border-radius:6px;
+	padding:0px 22px;
+	font-size:15px;
+}
+.lastname{
+	position:relative;
+	left:450px;
+	top:-83px;
+	line-height:40px;
+	width:220px;
+	border-radius:6px;
+	padding:0px 22px;
+	font-size:15px;
+}
+.firstlevel{
+	position:relative;
+	text-transform:capitalize;
+	font-size:15px;
+	left:215px;
+	top:-15px;
+	color:white;
+}
+.lastlevel{
+	position:relative;
+	text-transform:capitalize;
+	font-size:15px;
+	left:515px;
+	top:-78px;
+	color:white;
+}
+.age{
+	position:relative;
+	font-size:20px;	
+	width:170px;
+	left:120px;
+	top:-23px;
+	border-radius:6px;
+	padding:0px 22px;
+}
+.email{
+	position:relative;
+	font-size:20px;	
+	width:170px;
+	left:120px;
+	top:-23px;
+	border-radius:6px;
+	padding:0px 22px;
+}
+.number{
+	position:relative;
+	font-size:20px;	
+	width:170px;
+	left:125px;
+	top:-30px;
+	border-radius:6px;
+	padding:0px 22px;
+}
+.city{
+	position:relative;	
+	left:50px;
+	top:-23px;
+	width:200px;
+	height:70px;
+	border-radius:6px;
+	padding:0px 22px;
+	font-size:16px;
+	overflow:hidden;
+	outline:none;
+}
+.language{
+	color:white;
+	position:relative;
+	font-size:20px;	
+	left:180px;
+	top:-23px;
+}
+.category{
+	color:white;
+	position:relative;
+	font-size:20px;	
+	left:180px;
+	top:-23px;
+}
+.stream{
+	position:relative;	
+	left:80px;
+	top:-29px;
+	width:252px;
+	height:80px;
+	border-radius:6px;
+	padding:0px 22px;
+	font-size:16px;
+	overflow:hidden;
+	outline:none;
+}
+.submit{
+	position:absolute;
+	top:110%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.btn1{
+	border:1px solid black;
+	color:white;
+	padding:10px 30px;
+	text-decoration:none;
+	transition:0.6s;
+	background-color:red;
+	font-size:15px;
+}
+.btn2{
+	border:1px solid black;
+	color:white;
+	padding:10px 30px;
+	text-decoration:none;
+	transition:0.6s;
+	background-color:red;
+	font-size:15px;
+	font-style:bold;
+}
